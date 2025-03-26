@@ -22,10 +22,10 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 # Required dependencies
 REQUIRED_PACKAGES = [
-    "torch>=2.5.1",
-    "torchvision>=0.20.1",
-    "numpy>=1.24.4",
-    "tqdm>=4.66.1",
+    "torch>=2.2"
+    "torchvision>=0.17"
+    "numpy>=1.26.4"
+    "tqdm>=4.66.4",
     "hydra-core>=1.3.2",
     "iopath>=0.1.10",
     "pillow>=9.4.0",
@@ -33,9 +33,9 @@ REQUIRED_PACKAGES = [
 
 EXTRA_PACKAGES = {
     "notebooks": [
-        "matplotlib>=3.9.1",
+        "matplotlib>=3.7.5",
         "jupyter>=1.0.0",
-        "opencv-python>=4.7.0",
+        "opencv-python>=4.11.0.86",
         "eva-decord>=0.6.1",
     ],
     "interactive-demo": [
@@ -54,12 +54,12 @@ EXTRA_PACKAGES = {
         "usort==1.0.2",
         "ufmt==2.0.0b2",
         "fvcore>=0.1.5.post20221221",
-        "pandas>=2.2.2",
-        "scikit-image>=0.24.0",
-        "tensorboard>=2.17.0",
+        "pandas>=2.2.3",
+        "scikit-image>=0.21.0",
+        "tensorboard>=2.19.0",
         "pycocotools>=2.0.8",
         "tensordict>=0.6.0",
-        "opencv-python>=4.7.0",
+        "opencv-python>=4.11.0.86",
         "submitit>=1.5.1",
     ],
 }
